@@ -1,0 +1,1018 @@
+ Subarray with given sum 
+Given an unsorted array A of size N of non-negative integers, find a continuous sub-array which adds to a given number S.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. The first line of each test case is N and S, where N is the size of array and S is the sum. The second line of each test case contains N space separated integers denoting the array elements.
+Output:
+For each testcase, in a new line, print the starting and ending positions(1 indexing) of first such occuring subarray from the left if sum equals to subarray, else print -1.
+Constraints:
+1 <= T <= 100
+1 <= N <= 107
+1 <= Ai <= 1010
+Example:
+Input:
+2
+5 12
+1 2 3 7 5
+10 15
+1 2 3 4 5 6 7 8 9 10
+Output:
+2 4
+1 5
+Explanation : 
+Testcase1: sum of elements from 2nd position to 4th position is 12
+Testcase2: sum of elements from 1st position to 5th position is 15
+
+ Missing number in array 
+Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found.
+Input:
+The first line of input contains an integer T denoting the number of test cases. For each test case first line contains N(size of array). The subsequent line contains N-1 array elements.
+Output:
+Print the missing number in array.
+Constraints:
+1 ≤ T ≤ 200
+1 ≤ N ≤ 107
+1 ≤ C[i] ≤ 107
+Example:
+Input:
+2
+5
+1 2 3 5
+10
+1 2 3 4 5 6 7 8 10
+Output:
+4
+9
+Explanation:
+Testcase 1: Given array : 1 2 3 5. Missing element is 4.
+
+ Kadane's Algorithm 
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+Input:
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains a single integer N denoting the size of array. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+Output:
+Print the maximum sum of the contiguous sub-array in a separate line for each test case.
+Constraints:
+1 ≤ T ≤ 110
+1 ≤ N ≤ 106
+-107 ≤ A[i] <= 107
+Example:
+Input
+2
+5
+1 2 3 -2 5
+4
+-1 -2 -3 -4
+Output
+9
+-1
+Explanation:
+Testcase 1: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
+
+ Parenthesis Checker 
+Given an expression string exp. Examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
+For example, the program should print 'balanced' for exp = “[()]{}{[()()]()}” and 'not balanced' for exp = “[(])”
+Input:
+The first line of input contains an integer T denoting the number of test cases.  Each test case consists of a string of expression, in a separate line.
+Output:
+Print 'balanced' without quotes if the pair of parenthesis is balanced else print 'not balanced' in a separate line.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ |s| ≤ 105
+Example:
+Input:
+3
+{([])}
+()
+([]
+Output:
+balanced
+balanced
+not balanced
+
+ Leaders in an array 
+Given an array of positive integers. Your task is to find the leaders in the array.
+Note: An element of array is leader if it is greater than or equal to all the elements to its right side. Also, the rightmost element is always a leader. 
+Input:
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the size of array.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+Output:
+Print all the leaders.
+Constraints:
+1 <= T <= 100
+1 <= N <= 107
+0 <= Ai <= 107
+Example:
+Input:
+3
+6
+16 17 4 3 5 2
+5
+1 2 3 4 0
+5
+7 4 5 7 3
+Output:
+17 5 2
+4 0
+7 7 3
+Explanation:
+Testcase 3: All elements on the right of 7 (at index 0) are smaller than or equal to 7. Also, all the elements of right side of 7 (at index 3) are smaller than 7. And, the last element 3 is itself a leader since no elements are on its right.
+
+ Equilibrium point 
+Given an array A of N positive numbers. The task is to find the position where equilibrium first occurs in the array. Equilibrium position in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
+Input:
+The first line of input contains an integer T, denoting the number of test cases. Then T test cases follow. First line of each test case contains an integer N denoting the size of the array. Then in the next line are N space separated values of the array A.
+Output:
+For each test case in a new  line print the position at which the elements are at equilibrium if no equilibrium point exists print -1.
+Constraints:
+1 <= T <= 100
+1 <= N <= 106
+1 <= Ai <= 108
+Example:
+Input:
+2
+1
+1
+5
+1 3 5 2 2
+Output:
+1
+3
+Explanation:
+Testcase 1: Since its the only element hence its the only equilibrium point.
+Testcase 2: For second test case equilibrium point is at position 3 as elements below it (1+3) = elements after it (2+2).
+ 
+
+ Rotate Array  
+Given an unsorted array arr[] of size N, rotate it by D elements (clockwise). 
+Input:
+The first line of the input contains T denoting the number of testcases. First line of each test case contains two space separated elements, N denoting the size of the array and an integer D denoting the number size of the rotation. Subsequent line will be the N space separated array elements.
+Output: 
+For each testcase, in a new line, output the rotated array.
+Constraints:
+1 <= T <= 200
+1 <= N <= 107
+1 <= D <= N
+0 <= arr[i] <= 105
+Example:
+Input:
+2
+5 2
+1 2 3 4 5 
+10 3
+2 4 6 8 10 12 14 16 18 20
+Output:
+3 4 5 1 2
+8 10 12 14 16 18 20 2 4 6
+Explanation :
+Testcase 1: 1 2 3 4 5  when rotated by 2 elements, it becomes 3 4 5 1 2.
+ 
+
+ Kth smallest element 
+Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+Input:
+The first line of input contains an integer T, denoting the number of testcases. Then T test cases follow. Each test case consists of three lines. First line of each testcase contains an integer N denoting size of the array. Second line contains N space separated integer denoting elements of the array. Third line of the test case contains an integer K.
+Output:
+Corresponding to each test case, print the kth smallest element in a new line. 
+Expected Time Complexity: O(N).
+Expected Auxiliary Space: O(1).
+Constraints:
+1 <= T <= 100
+1 <= N <= 105
+1 <= arr[i] <= 105
+1 <= K <= N
+Example:
+Input:
+2
+6
+7 10 4 3 20 15
+3
+5
+7 10 4 20 15
+4
+Output:
+7
+15
+Explanation:
+Testcase 1: 3rd smallest element in the given array is 7.
+Testcase 2: 4th smallest elemets in the given array is 15.
+ 
+
+ Sort an array of 0s, 1s and 2s 
+Given an array A of size N containing 0s, 1s, and 2s; you need to sort the array in ascending order.
+Input:
+The first line contains an integer 'T' denoting the total number of test cases. Then T testcases follow. Each testcases contains two lines of input. The first line denotes the size of the array N. The second lines contains the elements of the array A separated by spaces.
+
+Output: 
+For each testcase, print the sorted array.
+
+Constraints: 
+1 <= T <= 500
+1 <= N <= 106
+0 <= Ai <= 2
+Example:
+Input :
+2
+5
+0 2 1 2 0
+3
+0 1 0
+Output:
+0 0 1 2 2
+0 0 1
+Explanation:
+Testcase 1: After segragating the 0s, 1s and 2s, we have 0 0 1 2 2 which shown in the output.
+
+ Next larger element 
+Given an array A of size N having distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1 
+Input:
+The first line of input contains a single integer T denoting the number of test cases.Then T test cases follow. Each test case consists of two lines. The first line contains an integer N denoting the size of the array. The Second line of each test case contains N space separated positive integers denoting the values/elements in the array A.
+Output:
+For each test case, print in a new line, the next greater element for each array element separated by space in order.
+Constraints:
+1 <= T <= 100
+1 <= N <= 107
+1 <= Ai <= 1018
+Example:
+Input
+2
+4
+1 3 2 4
+4
+4 3 2 1
+Output
+3 4 4 -1
+-1 -1 -1 -1
+Explanation:
+Testcase1: In the array, the next larger element to 1 is 3 , 3 is 4 , 2 is 4 and for 4 ? since it doesn't exist hence -1.
+
+ Minimum Platforms 
+Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no train waits.
+Note: Consider that all the trains arrive on the same day and leave on the same day. Also, arrival and departure times will not be same for a train, but we can have arrival time of one train equal to departure of the other. In such cases, we need different platforms, i.e at any given instance of time, same platform can not be used for both departure of a train and arrival of another.
+Input:
+The first line of input contains T, the number of test cases. For each test case, first line will contain an integer N, the number of trains. Next two lines will consist of N space separated time intervals denoting arrival and departure times respectively.
+Note: Time intervals are in the 24-hour format(hhmm),  of the for HHMM , where the first two charcters represent hour (between 00 to 23 ) and last two characters represent minutes (between 00 to 59).
+Output:
+For each test case, print the minimum number of platforms required for the trains to arrive and depart safely.
+Constraints:
+1 <= T <= 100
+1 <= N <= 1000
+1 <= A[i] < D[i] <= 2359
+Example:
+Input:
+2
+6 
+0900  0940 0950  1100 1500 1800
+0910 1200 1120 1130 1900 2000
+3
+0900 1100 1235
+1000 1200 1240 
+Output:
+3
+1
+Explanation:
+Testcase 1: Minimum 3 platforms are required to safely arrive and depart all trains.
+
+ Stock buy and sell 
+The cost of stock on each day is given in an array A[] of size N. Find all the days on which you buy and sell the stock so that in between those days your profit is maximum.
+Input: 
+First line contains number of test cases T. First line of each test case contains an integer value N denoting the number of days, followed by an array of stock prices of N days.  
+Output:
+For each testcase, output all the days with profit in a single line. And if there is no profit then print "No Profit".
+Constraints:
+1 <= T <= 100
+2 <= N <= 103
+0 <= Ai <= 104
+Example
+Input:
+3
+7
+100 180 260 310 40 535 695
+4
+100 50 30 20
+10
+23 13 25 29 33 19 34 45 65 67
+Output:
+(0 3) (4 6)
+No Profit
+(1 4) (5 9) 
+Explanation:
+Testcase 1: We can buy stock on day 0, and sell it on 3rd day, which will give us maximum profit.
+Note: Output format is as follows - (buy_day sell_day) (buy_day sell_day)
+For each input, output should be in a single line.
+ 
+
+ Majority Element 
+Given an array A of N elements. Find the majority element in the array. A majority element in an array A of size N is an element that appears more than N/2 times in the array.
+Input:  
+The first line of the input contains T denoting the number of testcases. The first line of the test case will be the size of array and second line will be the elements of the array.
+Output: 
+For each test case the output will be the majority element of the array. Output "-1" if no majority element is there in the array.
+Constraints:
+1 <= T<= 100
+1 <= N <= 107
+0 <= Ai <= 106
+Example:
+Input:
+2
+5
+3 1 3 3 2
+3
+1 2 3
+Output:
+3
+-1
+Explanation:
+Testcase 1: Since, 3 is present more than N/2 times, so it is the majority element.
+ 
+
+ Inversion of array 
+Given an array of positive integers. The task is to find inversion count of array.
+Inversion Count : For an array, inversion count indicates how far (or close) the array is from being sorted. If array is already sorted then inversion count is 0. If array is sorted in reverse order that inversion count is the maximum. 
+Formally, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+Input:
+The first line of input contains an integer T denoting the number of test cases. The first line of each test case is N, the size of array. The second line of each test case contains N elements.
+Output:
+Print the inversion count of array.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 107
+1 ≤ C ≤ 1018
+Example:
+Input:
+1
+5
+2 4 1 3 5
+Output:
+3
+Explanation:
+Testcase 1: The sequence 2, 4, 1, 3, 5 has three inversions (2, 1), (4, 1), (4, 3).
+
+ Longest Increasing Subsequence 
+Given a sequence A of size N, find the length of the longest increasing subsequence from a given sequence .
+The longest increasing subsequence means to find a subsequence of a given sequence in which the subsequence's elements are in sorted order, lowest to highest, and in which the subsequence is as long as possible. This subsequence is not necessarily contiguous, or unique.
+Note: Duplicate numbers are not counted as increasing subsequence.
+Input:
+The first line contains an integer T, depicting total number of test cases. Then following T lines contains an integer N depicting the size of array and next line followed by the value of array.
+Output:
+For each testcase, in a new line, print the Max length of the subsequence in a separate line.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 1000
+0 ≤ A[i] ≤ 300
+Example:
+Input:
+2
+16
+0 8 4 12 2 10 6 14 1 9 5 13 3 11 7 15
+6
+5 8 3 7 9 1
+Output:
+6
+3
+Explanation:
+Testcase 2: Longest increasing subsequence is of size 3 with elements (there are many subsequence, but listing one of them): 5 7 9.
+ 
+
+ Minimum number of jumps 
+Given an array of integers where each element represents the max number of steps that can be made forward from that element. The task is to find the minimum number of jumps to reach the end of the array (starting from the first element). If an element is 0, then cannot move through that element.
+Input: 
+The first line contains an integer T, depicting total number of test cases.  Then following T lines contains a number n denoting the size of the array. Next line contains the sequence of integers a1, a2, ..., an.
+Output:
+For each testcase, in a new line, print the minimum number of jumps. If answer is not possible print "-1"(without quotes).
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 107
+0 <= ai <= 107
+Example:
+Input:
+2
+11
+1 3 5 8 9 2 6 7 6 8 9
+6
+1 4 3 2 6 7
+Output:
+3
+2
+Explanation:
+Testcase 1: First jump from 1st element, and we jump to 2nd element with value 3. Now, from here we jump to 5h element with value 9. and from here we will jump to last.
+ 
+
+ Maximum of all subarrays of size k 
+Given an array A and an integer K. Find the maximum for each and every contiguous subarray of size K.
+Input:
+The first line of input contains an integer T denoting the number of test cases. The first line of each test case contains a single integer N denoting the size of array and the size of subarray K. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+Output:
+Print the maximum for every subarray of size k.
+Constraints:
+1 ≤ T ≤ 200
+1 ≤ N ≤ 107
+1 ≤ K ≤ N
+0 ≤ A[i] <= 107
+Example:
+Input:
+2
+9 3
+1 2 3 1 4 5 2 3 6
+10 4
+8 5 10 7 9 4 15 12 90 13
+Output:
+3 3 4 5 5 5 6
+10 10 10 15 15 90 90
+Explanation:
+Testcase 1: Starting from first subarray of size k = 3, we have 3 as maximum. Moving the window forward, maximum element are as 3, 4, 5, 5, 5 and 6. 
+
+ Power of 2 
+Given a positive integer N. The task is to check if N is a power of 2. That is N is 2x for some x.
+Input:
+The first line contains T denoting the number of test cases. Each test case contains a single positive integer N.
+Output:
+Print "YES" if it is a power of 2 else "NO" (Without the double quotes).
+Constraints:
+1 <= T <= 100
+0 <= N <= 1018
+Example:
+Input :
+2
+1
+98
+Output :
+YES
+NO
+Explanation:
+Testcase 1:  1 is equal to 2 raised to 0 (20 == 1).
+ 
+
+ 0 - 1 Knapsack Problem 
+You are given weights and values of N items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. Note that we have only one quantity of each item.
+In other words, given two integer arrays val[0..N-1] and wt[0..N-1] which represent values and weights associated with N items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item, or don’t pick it (0-1 property).
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of four lines.
+The first line consists of N the number of items.
+The second line consists of W, the maximum capacity of the knapsack.
+In the next line are N space separated positive integers denoting the values of the N items,
+and in the fourth line are N space separated positive integers denoting the weights of the corresponding items.
+Output:
+For each testcase, in a new line, print the maximum possible value you can get with the given conditions that you can obtain for each test case in a new line.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 1000
+1 ≤ W ≤ 1000
+1 ≤ wt[i] ≤ 1000
+1 ≤ v[i] ≤ 1000
+Example:
+Input:
+2
+3
+4
+1 2 3
+4 5 1
+3
+3
+1 2 3
+4 5 6
+Output:
+3
+0
+Explanation:
+Test Case 1: With W = 4, you can either choose the 0th item or the 2nd item. Thus, the maximum value you can generate is the max of val[0] and val[2], which is equal to 3.
+Test Case 2: With W = 3, there is no item you can choose from the given list as all the items have weight greater than W. Thus, the maximum value you can generate is 0.
+
+ Longest Palindrome in a String 
+Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the same backwards. More formally, S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs first ( with the least starting index ).
+NOTE: Required Time Complexity O(n2).
+Input:
+The first line of input consists number of the testcases. The following T lines consist of a string each.
+Output:
+In each separate line print the longest palindrome of the string given in the respective test case.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ Str Length ≤ 104
+Example:
+Input:
+1
+aaaabbaa
+Output:
+aabbaa
+Explanation:
+Testcase 1: The longest palindrome string present in the given string is "aabbaa". 
+
+ Reverse words in a given string 
+Given a String of length S, reverse the whole string without reversing the individual words in it. Words are separated by dots.
+Input:
+The first line contains T denoting the number of testcases. T testcases follow. Each case contains a string S containing characters.
+Output:
+For each test case, in a new line, output a single line containing the reversed String.
+Constraints:
+1 <= T <= 100
+1 <= |S| <= 2000
+Example:
+Input:
+2
+i.like.this.program.very.much
+pqr.mno
+Output:
+much.very.program.this.like.i
+mno.pqr
+
+ Trapping Rain Water 
+Given an array arr[] of N non-negative integers representing height of blocks at index i as Ai where the width of each block is 1. Compute how much water can be trapped in between blocks after raining.
+Structure is like below:
+|  |
+|_|
+We can trap 2 units of water in the middle gap.
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. Each test case contains an integer N denoting the size of the array, followed by N space separated numbers to be stored in array.
+Output:
+Output the total unit of water trapped in between the blocks.
+Constraints:
+1 <= T <= 100
+3 <= N <= 107
+0 <= Ai <= 108
+Example:
+Input:
+2
+4
+7 4 0 9
+3
+6 9 9
+Output:
+10
+0
+Explanation:
+Testcase 1: Water trapped by block of height 4 is 3 units, block of height 0 is 7 units. So, total unit of water trapped is 10 units.
+ 
+
+ Permutations of a given string 
+Given a string S. The task is to print all permutations of a given string.
+Input:
+The first line of input contains an integer T, denoting the number of test cases. Each test case contains a single string S in capital letter.
+Output:
+For each test case, print all permutations of a given string S with single space and all permutations should be in lexicographically increasing order.
+Constraints:
+1 ≤ T ≤ 10
+1 ≤ size of string ≤ 5
+Example:
+Input:
+2
+ABC
+ABSG
+Output:
+ABC ACB BAC BCA CAB CBA 
+ABGS ABSG AGBS AGSB ASBG ASGB BAGS BASG BGAS BGSA BSAG BSGA GABS GASB GBAS GBSA GSAB GSBA SABG SAGB SBAG SBGA SGAB SGBA 
+Explanation:
+Testcase 1: Given string ABC has permutations in 6 forms as ABC, ACB, BAC, BCA, CAB and CBA .
+ 
+
+ Longest Common Subsequence 
+Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
+Input:
+First line of the input contains no of test cases  T,the T test cases follow.
+Each test case consist of 2 space separated integers A and B denoting the size of string str1 and str2 respectively
+The next two lines contains the 2 string str1 and str2 .
+Output:
+For each test case print the length of longest  common subsequence of the two strings .
+Constraints:
+1<=T<=200
+1<=size(str1),size(str2)<=100
+Example:
+Input:
+2
+6 6
+ABCDGH
+AEDFHR
+3 2
+ABC
+AC
+Output:
+3
+2
+Explanation
+LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
+LCS of "ABC" and "AC" is "AC" of length 2
+ 
+
+ Reverse array in groups 
+Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
+Input:
+The first line of input contains a single integer T denoting the number of test cases. Then T test cases follow. Each test case consist of two lines of input. The first line of each test case consists of an integer N(size of array) and an integer K separated by a space. The second line of each test case contains N space separated integers denoting the array elements.
+Output:
+For each test case, print the modified array.
+Constraints:
+1 ≤ T ≤ 200
+1 ≤ N, K ≤ 107
+1 ≤ A[i] ≤ 1018
+Example:
+Input
+2
+5 3
+1 2 3 4 5
+6 2
+10 20 30 40 50 60
+Output
+3 2 1 5 4
+20 10 40 30 60 50
+Explanation:
+Testcase 1: Reversing groups in size 3, first group consists of elements 1, 2, 3. Reversing this group, we have elements in order as 3, 2, 1.
+ 
+
+ Anagram 
+Given two strings a and b consisting of lowercase characters. The task is to check whether two given strings are anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “act” and “tac” are anagram of each other.
+Input: 
+The first line of input contains an integer T denoting the number of test cases. Each test case consist of two strings in 'lowercase' only, in a single line.
+Output:
+Print "YES" without quotes if the two strings are anagram else print "NO".
+Constraints:
+1 ≤ T ≤ 300
+1 ≤ |s| ≤ 106
+Example:
+Input:
+2
+geeksforgeeks forgeeksgeeks
+allergy allergic
+Output:
+YES
+NO
+Explanation:
+Testcase 1: Both the string have same characters with same frequency. So, both are anagrams.
+Testcase 2: Characters in both the strings are not same, so they are not anagrams.
+ 
+
+ Find median in a stream 
+Given an input stream of N integers. The task is to insert these numbers into a new stream and find the median of the stream formed by each insertion of X to the new stream.
+Input:
+The first line of input contains an integer N denoting the number of elements in the stream. Then the next N lines contains integer x denoting the number to be inserted into the stream.
+Output:
+For each element added to the stream print the floor of the new median in a new line.
+ 
+Constraints:
+1 <= N <= 106
+1 <= x <= 106
+ 
+Example:
+Input:
+4
+5
+15
+1 
+3
+Output:
+5
+10
+5
+4
+ 
+Explanation:
+Testcase 1: 
+Flow in stream : 5, 15, 1, 3 
+5 goes to stream --> median 5 (5) 
+15 goes to stream --> median 10 (5, 15) 
+1 goes to stream --> median 5 (5, 15, 1) 
+3 goes to stream --> median 4 (5, 15, 1, 3) 
+ 
+
+ Find all pairs with a given sum 
+Given two unsorted arrays A of size N and B of size M of distinct elements, the task is to find all pairs from both arrays whose sum is equal to X.
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains 3 lines . The first line contains 3 space separated integers N, M, X. Then in the next two lines are space separated values of the array A and B respectively.
+Output:
+For each test case in a new line print the sorted space separated values of all the pairs u,v where u belongs to array A and v belongs to array B, such that each pair is separated from the other by a ',' without quotes also add a space after the ',' . If no such pair exist print -1.
+Constraints:
+1 <= T <= 100
+1 <= N, M, X <= 106
+-106 <= A, B <= 106
+Example:
+Input:
+2
+5 5 9
+1 2 4 5 7
+5 6 3 4 8
+2 2 3
+0 2
+1 3
+Output:
+1 8, 4 5, 5 4
+0 3, 2 1
+Explanation:
+Testcase 1: (1, 8), (4, 5), (5, 4) are the pairs which sum to 9.
+
+ Element with left side smaller and right side greater 
+Given an unsorted array of size N. Find the first element in array such that all of its left elements are smaller and all right elements to it are greater than it.
+
+Note: Left and right side elements can be equal to required element. And extreme elements cannot be required element.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains an Integer N denoting size of array and the second line contains N space separated array elements.
+Output:
+For each test case, in a new line print the required element. If no such element present in array then print -1.
+Constraints:
+1 <= T <= 100
+3 <= N <= 106
+1 <= A[i] <= 106
+Example:
+Input:
+3
+4
+4 2 5 7
+3
+11 9 12
+6
+4 3 2 7 8 9
+Output:
+5
+-1
+7
+Explanation:
+Testcase 1 : Elements on left of 5 are smaller than 5 and on right of it are greater than 5.
+
+ Spirally traversing a matrix 
+Given a matrix mat[][] of size M*N. Traverse and print the matrix in spiral form.
+Input: 
+The first line of the input contains a single integer T, denoting the number of test cases. Then T test cases follow. Each testcase has 2 lines. First line contains M and N respectively separated by a space. Second line contains M*N values separated by spaces.
+Output:
+Elements when travelled in Spiral form, will be displayed in a single line.
+Constraints:
+1 <= T <= 100
+2 <= M,N <= 10
+0 <= Ai <= 100
+Example:
+Input:
+2
+4 4
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+3 4
+1 2 3 4 5 6 7 8 9 10 11 12
+Output:
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+1 2 3 4 8 12 11 10 9 5 6 7
+Explanation:
+Testcase 1: 
+
+Video:
+
+
+ Count ways to reach the n'th stair 
+There are N stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time. Count the number of ways, the person can reach the top (order does matter).
+Input:
+The first line contains an integer 'T' denoting the total number of test cases. In each test cases, an integer N will be given.
+Output:
+For each testcase, in a new line, print number of possible ways to reach Nth stair. Answer your output % 10^9+7.
+Constraints:
+1<=T<=105
+1<=N<=105
+Example:
+Input:
+3
+4
+10
+24
+Output:
+5
+89
+75025
+
+ Total Decoding Messages 
+A top secret message containing letters from A-Z is being encoded to numbers using the following mapping:
+
+
+'A' -> 1
+'B' -> 2
+...
+'Z' -> 26
+
+
+You are an FBI agent. You have to determine the total number of ways that message can be decoded.
+Note: An empty digit sequence is considered to have one decoding. It may be assumed that the input contains valid digits from 0 to 9 and If there are leading 0’s, extra trailing 0’s and two or more consecutive 0’s then it is an invalid string.
+Example :
+Given encoded message "123",  it could be decoded as "ABC" (1 2 3) or "LC" (12 3) or "AW"(1 23).
+So total ways are 3.
+Input:
+First line contains the test cases T.  1<=T<=1000
+Each test case have two lines
+First is length of string N.  1<=N<=40
+Second line is string S of digits from '0' to '9' of N length.
+Example:
+Input:
+2
+3
+123
+4
+2563
+Output:
+3
+2
+ 
+
+ Search in a Rotated Array 
+Given a sorted and rotated array A of N distinct elements which is rotated at some point, and given an element K. The task is to find the index of the given element K in the array A.
+Input:
+The first line of the input contains an integer T, denoting the total number of test cases. Then T test cases follow. Each test case consists of three lines. First line of each test case contains an integer N denoting the size of the given array. Second line of each test case contains N space separated integers denoting the elements of the array A. Third line of each test case contains an integer K denoting the element to be searched in the array.
+Output:
+Corresponding to each test case, output the index of the element found in the array.  If element is not present, then output -1.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N ≤ 107
+0 ≤ Ai ≤ 108
+1 ≤ K ≤ 108
+Example:
+Input:
+3
+9
+5 6 7 8 9 10 1 2 3
+10
+3
+3 1 2
+1
+4
+3 5 1 2
+6
+Output:
+5
+1
+-1
+Explanation:
+Testcase 1: 10 is found at index 5.
+
+ Longest Common Substring 
+Given two strings X and Y. The task is to find the length of the longest common substring.
+Input:
+First line of the input contains number of test cases T. Each test case consist of three lines, first of which contains 2 space separated integers N and M denoting the size of string X and Y strings respectively. The next two lines contains the string X and Y.
+Output:
+For each test case print the length of longest  common substring of the two strings .
+Constraints:
+1 <= T <= 200
+1 <= N, M <= 100
+Example:
+Input:
+2
+6 6
+ABCDGH
+ACDGHR
+3 2
+ABC
+AC
+Output:
+4
+1
+Example:
+Testcase 1: CDGH is the longest substring present in both of the strings.
+ 
+
+ First non-repeating character in a stream 
+Given an input stream of N characters consisting only of lower case alphabets. The task is to find the first non repeating character, each time a character is inserted to the stream. If no non repeating element is found print -1.
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N denoting the size of the stream. Then in the next line are x characters which are inserted to the stream.
+Output:
+For each test case in a new line print the first non repeating elements separated by spaces present in the stream at every instinct when a character is added to the stream, if no such element is present print -1.
+Constraints:
+1 <= T <= 200
+1 <= N <= 500
+Example:
+Input:
+2
+4
+a a b c
+3
+a a c 
+Output:
+a -1 b b
+a -1 c
+Explanation:
+Test Case 1: a a b c
+The step wise first non-repeating elements are made bold:
+a (print a)
+a a (no non-repeating element, print -1)
+a a b (print b)
+a a b c (print b)
+Result: a -1 b b
+Test Case 2: a a c
+a (print a)
+a a (no non-repeating element, print -1)
+a a c (print c)
+Result: a -1 c
+
+ Longest Distinct characters in string 
+Given a string S, find length of the longest substring with all distinct characters.  For example, for input "abca", the output is 3 as "abc" is the longest substring with all distinct characters.
+Input:
+The first line of input contains an integer T denoting the number of test cases.
+The first line of each test case is String str.
+Output:
+Print length of smallest substring with maximum number of distinct characters.
+Note: The output substring should have all distinct characters.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ size of str ≤ 10000
+Example:
+Input:
+2
+abababcdefababcdab
+geeksforgeeks
+Output:
+6
+7
+
+ Maximize The Cut Segments 
+Given an integer N denoting the Length of a line segment. you need to cut the line segment in such a way that the cut length of a line segment each time is integer either x , y or z. and after performing all cutting operation the total number of cutted segments must be maximum. 
+
+Input
+First line of input contains of an integer 'T' denoting number of test cases. First line of each testcase contains N . Second line of each testcase contains 3 space separated integers x , y and z.
+Output
+For each test case print in a new line an integer corresponding to the answer .
+
+Constraints
+1<=t<=70
+1<=N,x,y,z<=4000
+ 
+Example
+Input
+2
+4
+2 1 1
+5
+5 3 2
+
+Output
+4
+2
+In first test case, total length is 4, and cut lengths are 2, 1 and 1.  We can make maximum 4 segments each of length 1. In secon test case, we can make two segments of lengths 3 and 2.
+
+ Relative Sorting 
+Given two arrays A1[] and A2[] of size N and M respectively. The task is to sort A1 in such a way that the relative order among the elements will be same as those in A2. For the elements not present in A2, append them at last in sorted order. It is also given that the number of elements in A2[] are smaller than or equal to number of elements in A1[] and A2[] has all distinct elements.
+Note: Expected time complexity is O(N log(N)).
+Input:
+First line of input contains number of testcases. For each testcase, first line of input contains length of arrays N and M and next two line contains N and M elements respectively.
+Output:
+Print the relatively sorted array.
+Constraints:
+1 ≤ T ≤ 100
+1 ≤ N,M  ≤ 106
+1 ≤ A1[], A2[] <= 106 
+Example:
+Input:
+2
+11 4
+2 1 2 5 7 1 9 3 6 8 8
+2 1 8 3
+8 4
+2 6 7 5 2 6 8 4 
+2 6 4 5
+Output:
+2 2 1 1 8 8 3 5 6 7 9
+2 2 6 6 4 5 7 8
+Explanation:
+Testcase 1: After sorting the resulted output is 2 2 1 1 8 8 3 5 6 7 9.
+Testcase 2: After sorting the resulted output is 2 2 6 6 4 5 7 8.
+ 
+
+ Smallest Positive missing number 
+You are given an array arr[] of N integers including 0. The task is to find the smallest positive number missing from the array.
+Note: Expected solution in O(n) time using constant extra space.
+Input:
+First line consists of T test cases. First line of every test case consists of N, denoting the number of elements in array. Second line of every test case consists of elements in array.
+Output:
+Single line output, print the smallest positive number missing.
+Constraints:
+1 <= T <= 100
+1 <= N <= 106
+-106 <= arr[i] <= 106
+Example:
+Input:
+2
+5
+1 2 3 4 5
+5
+0 -10 1 3 -20
+Output:
+6
+2
+Explanation:
+Testcase 1: Smallest positive missing number is 6.
+Testcase 2: Smallest positive missing number is 2.
+ 
+
+ Stickler Thief 
+Stickler the thief wants to loot money from a society having n houses in a single line. He is a weird person and follows a certain rule when looting the houses. According to the rule, he will never loot two consecutive houses. At the same time, he wants to maximize the amount he loots. The thief knows which house has what amount of money but is unable to come up with an optimal looting strategy. He asks for your help to find the maximum money he can get if he strictly follows the rule. Each house has a[i] amount of money present in it.
+Input:
+The first line of input contains an integer T denoting the number of test cases. T testcases follow. Each test case contains an integer n which denotes the number of houses. Next line contains space separated numbers denoting the amount of money in each house.
+Output:
+For each testcase, in a newline, print an integer which denotes the maximum amount he can take home.
+Constraints:
+1 <= T <= 200
+1 <= n <= 104
+1 <= a[i] <= 104
+Example:
+Input:
+2
+6
+5 5 10 100 10 5
+3
+1 2 3
+Output:
+110
+4
+Explanation:
+Testcase1:
+5+100+5=110
+Testcase2:
+1+3=4
+

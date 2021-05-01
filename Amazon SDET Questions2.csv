@@ -1,0 +1,611 @@
+,AmazonSDETQuestions
+0,<p>I was interviewed for the position of SDET-1 few days back at Chennai. Here is my interview experience: <!--more--></p>
+1,"<p><strong>Coding  round (Full code required):</strong><br/>
+1) <a href=""https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1"" rel=""noopener"" target=""_blank"">Given a linked list. Check whether it is a palindrome</a> (without using  any extra space).<br/>
+2) <a href=""https://practice.geeksforgeeks.org/problems/mirror-tree/1"" rel=""noopener"" target=""_blank"">Write a program to return the mirror tree of a given binary tree.</a><br/>
+3) <a href=""https://practice.geeksforgeeks.org/problems/rotate-by-90-degree/0"" rel=""noopener"" target=""_blank"">Given a 2-D array, Rotate it by 90 degrees.</a></p>"
+2,"<p><strong>F2F-I:</strong><br/>
+1) Given a phone number. Check whether it is unique or not(ie no duplicates)<br/>
+I gave a o(n^2) TC algo first which he wanted to optimize. After 3 series of optimization ,I came up with a  o(n) solution with o(1) space complexity.</p>"
+3,"<p>2)<a href=""https://practice.geeksforgeeks.org/problems/level-order-traversal/1"" rel=""noopener"" target=""_blank""> The interviewer told me to code a level order traversal in a binary tree.</a></p>"
+4,"<p>3) An array of numbers are given such that the absolute difference between adjacent elements is 1.Given a value…Return the index of the 1st occurrence of that element.<br/>
+I gave an solution where in the 1st value is subtracted from the search value and hops in the array by that difference. if the reached value is the search value ,then return the index or just continue this process. The interviewer was impressed by my solution and told me to code it.</p>"
+5,"<p><strong><br/>
+F2F-2:</strong><br/>
+1) Brief discussion of work in current company</p>"
+6,"<p>2) <a href=""https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-parent-array/1"" rel=""noopener"" target=""_blank"">A given  array represents a tree in such a way that the array value gives the parent node of that particular index.The value of the root node index would always be -1.Find the height of the tree.</a></p>"
+7,<p>        I gave a iterative solution which was told to be optimized. I did optimize it using memorization concept. I had to code it too.</p>
+8,"<p>3)<a href=""https://practice.geeksforgeeks.org/problems/find-the-median/0"" rel=""noopener"" target=""_blank""> Write a program to find the median of 2 sorted arrays when merged.</a></p>"
+9,<p>This problem is there in geeksforgeeks.</p>
+10,"<p>4)Write an optimised  program to find the number of factors for a particular number<br/>
+This was a very simple qn.</p>"
+11,"<p><strong>F2F-3:</strong><br/>
+1) Brief discussion of work in current company. Why Amazon?</p>"
+12,<p>2) Why do you want to leave current company? What do you like most and dislike most about your current company?</p>
+13,<p>3) Design a automation framework to test a simple site with a login page .Give the various test cases also that should be considered. Later they told me to give some  enhancements to the code too.</p>
+14,<p>4) Design a automation framework to test twitter api’s that is used in a particular site .</p>
+15,<p>5)Give the various automation scripts and tools that I implemented in my current project.</p>
+16,"<p><strong>F2F-4(Hiring Manager):</strong><br/>
+1) Lots of HR, behavioral and team fit questions</p>"
+17,<p>2) Describe the most challenging project I have worked on…and why is it challenging.</p>
+18,<p>3) An e-commerce site has a particular functionality created by a group A and another functionality created by group B. Design a testing framework that could test the work by A as well as A/\B(intersection).</p>
+19,<p>4) I was working  as a security Analyst.So I was asked about 5 critical hacking techniques that can be used to a e-commerce site and describe each.</p>
+20,<p><strong>F2F-5(Bar raiser):</strong></p>
+21,<p> 1)Again behavioral and team fit questions.</p>
+22,"<p>2)Write a program to check the validity  of  sorting algorithms used to sort Linked lists.Consider the case where 2 nodes have equal values too.<br/>
+I gave a optimized code using hash table concept. The interviewer was pretty satisfied with my coding ability and started asking me about my projects.</p>"
+23,<p>3)More questions on my projects</p>
+24,<p>Thank you geeksforgeeks for helping me out during my preparation.</p>
+25,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+26,<p></p>
+27,<p>I was interviewed for the position of SDET-1 few days back at Chennai. Here is my interview experience: <!--more--></p>
+28,"<p><strong>Coding  round (Full code required):</strong><br/>
+1) <a href=""https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1"" rel=""noopener"" target=""_blank"">Given a linked list. Check whether it is a palindrome</a> (without using  any extra space).<br/>
+2) <a href=""https://practice.geeksforgeeks.org/problems/mirror-tree/1"" rel=""noopener"" target=""_blank"">Write a program to return the mirror tree of a given binary tree.</a><br/>
+3) <a href=""https://practice.geeksforgeeks.org/problems/rotate-by-90-degree/0"" rel=""noopener"" target=""_blank"">Given a 2-D array, Rotate it by 90 degrees.</a></p>"
+29,"<p><strong>F2F-I:</strong><br/>
+1) Given a phone number. Check whether it is unique or not(ie no duplicates)<br/>
+I gave a o(n^2) TC algo first which he wanted to optimize. After 3 series of optimization ,I came up with a  o(n) solution with o(1) space complexity.</p>"
+30,"<p>2)<a href=""https://practice.geeksforgeeks.org/problems/level-order-traversal/1"" rel=""noopener"" target=""_blank""> The interviewer told me to code a level order traversal in a binary tree.</a></p>"
+31,"<p>3) An array of numbers are given such that the absolute difference between adjacent elements is 1.Given a value…Return the index of the 1st occurrence of that element.<br/>
+I gave an solution where in the 1st value is subtracted from the search value and hops in the array by that difference. if the reached value is the search value ,then return the index or just continue this process. The interviewer was impressed by my solution and told me to code it.</p>"
+32,"<p><strong><br/>
+F2F-2:</strong><br/>
+1) Brief discussion of work in current company</p>"
+33,"<p>2) <a href=""https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-parent-array/1"" rel=""noopener"" target=""_blank"">A given  array represents a tree in such a way that the array value gives the parent node of that particular index.The value of the root node index would always be -1.Find the height of the tree.</a></p>"
+34,<p>        I gave a iterative solution which was told to be optimized. I did optimize it using memorization concept. I had to code it too.</p>
+35,"<p>3)<a href=""https://practice.geeksforgeeks.org/problems/find-the-median/0"" rel=""noopener"" target=""_blank""> Write a program to find the median of 2 sorted arrays when merged.</a></p>"
+36,<p>This problem is there in geeksforgeeks.</p>
+37,"<p>4)Write an optimised  program to find the number of factors for a particular number<br/>
+This was a very simple qn.</p>"
+38,"<p><strong>F2F-3:</strong><br/>
+1) Brief discussion of work in current company. Why Amazon?</p>"
+39,<p>2) Why do you want to leave current company? What do you like most and dislike most about your current company?</p>
+40,<p>3) Design a automation framework to test a simple site with a login page .Give the various test cases also that should be considered. Later they told me to give some  enhancements to the code too.</p>
+41,<p>4) Design a automation framework to test twitter api’s that is used in a particular site .</p>
+42,<p>5)Give the various automation scripts and tools that I implemented in my current project.</p>
+43,"<p><strong>F2F-4(Hiring Manager):</strong><br/>
+1) Lots of HR, behavioral and team fit questions</p>"
+44,<p>2) Describe the most challenging project I have worked on…and why is it challenging.</p>
+45,<p>3) An e-commerce site has a particular functionality created by a group A and another functionality created by group B. Design a testing framework that could test the work by A as well as A/\B(intersection).</p>
+46,<p>4) I was working  as a security Analyst.So I was asked about 5 critical hacking techniques that can be used to a e-commerce site and describe each.</p>
+47,<p><strong>F2F-5(Bar raiser):</strong></p>
+48,<p> 1)Again behavioral and team fit questions.</p>
+49,"<p>2)Write a program to check the validity  of  sorting algorithms used to sort Linked lists.Consider the case where 2 nodes have equal values too.<br/>
+I gave a optimized code using hash table concept. The interviewer was pretty satisfied with my coding ability and started asking me about my projects.</p>"
+50,<p>3)More questions on my projects</p>
+51,<p>Thank you geeksforgeeks for helping me out during my preparation.</p>
+52,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+53,<p></p>
+54,"<p>I attended an interview with Amazon for SDET-I position, about a month back. I did not clear the interview, but I would like thank GeeksforGeeks for the great learning period before the interview. <!--more-->GeeksforGeeks helped a real lot in my interview preparation and in general, my understanding of data structures and algorithms got deeper and stronger. Thank you very much GeeksforGeeks and all your valuable contributors!</p>"
+55,<p>Here is my interview experience:</p>
+56,"<p><strong>Telephonic 1:</strong><br/>
+1.    Given an array and a number, check whether there are any 3 elements in the array which add up to the given number.<br/>
+  For example:<br/>
+     Given an array {1,2,3,4,5}  and the number 9, return true, as 2,3,4 add up to 9.<br/>
+     Given an array {1,2,3,4,5}  and the number 3, return false, as there are no 3 elements which add up to 3, in the array.<br/>
+2.    Given a number, find the nearest perfect square(modified binary search)<br/>
+  For example:<br/>
+        Given 50, return 49<br/>
+        Given 25, return 25</p>"
+57,"<p><strong>Telephonic 2:</strong><br/>
+1. Write a method to check whether two binary trees are mirrors of each other<br/>
+<a href=""https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/"" target=""_blank"">https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/</a></p>"
+58,"<p>2.    Write a method to print the boundaries of a binary tree<br/>
+<a href=""https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/"" target=""_blank"">https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/</a></p>"
+59,"<p><strong>F2F 1:</strong><br/>
+1. Fill an array with the next greater elements (using stack)<br/>
+<a href=""https://www.geeksforgeeks.org/next-greater-element/"" target=""_blank"">https://www.geeksforgeeks.org/next-greater-element/</a></p>"
+60,"<p>2. Given a binary tree, count the number of occurrences where there are two nodes with the same horizontal distance. To make it clearer, if we assume each node in a cell of a matrix, then count the number of occurrences when there is a collision of two nodes in the same cell.<br/>
+<a href=""https://media.geeksforgeeks.org/wp-content/uploads/amaonTree.jpg""><img alt=""amazonInterview"" class=""aligncenter size-full wp-image-131653"" height=""160"" src=""https://media.geeksforgeeks.org/wp-content/uploads/amaonTree.jpg"" width=""208""/></a></p>"
+61,<p>Here the count is 1 because 5 and 6 occupy the same cell in the matrix</p>
+62,"<p><strong>F2F 2:</strong><br/>
+1. Given a linked list, write a program to check if it is a palindrome<br/>
+2. Write some test methods for stress testing of Furniture class<br/>
+3. Some discussion on automation testing</p>"
+63,"<p><strong><br/>
+F2F 3: (System automation design)</strong><br/>
+System: The user gives a book id to be downloaded and the location in which the book is to be stored. The system downloads the book (if it exists) in the location given by the user and returns a url through which the user can access the book.<br/>
+I was asked to design automated test cases for the system. The interviewer kept adding more and more constraints to the system and we discussed about the pros and cons of my approach.</p>"
+64,"<p><strong>Hiring Manager:</strong><br/>
+1.    Discussion about my current job role<br/>
+2.    Several behavioral and team fit questions<br/>
+3.    What are the things you will consider (both from Developer’s perspective and User perspective) while trying to develop an application for computer aided competitive examinations like CAT, GMAT etc.</p>"
+65,"<p><strong><br/>
+Bar Raiser:</strong><br/>
+1.    Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.<br/>
+I did not write a clean code for this. He moved on because of lack of time.<br/>
+2.    Again discussion of my current job role and about the projects I have worked on.<br/>
+3.    Tell me 3 things that you want to learn/change in yourself<br/>
+4.    Again several team fit questions.</p>"
+66,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+67,<p><!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>
+68,<p></p>
+69,"<p>I attended an interview with Amazon for SDET-I position, about a month back. I did not clear the interview, but I would like thank GeeksforGeeks for the great learning period before the interview. <!--more-->GeeksforGeeks helped a real lot in my interview preparation and in general, my understanding of data structures and algorithms got deeper and stronger. Thank you very much GeeksforGeeks and all your valuable contributors!</p>"
+70,<p>Here is my interview experience:</p>
+71,"<p><strong>Telephonic 1:</strong><br/>
+1.    Given an array and a number, check whether there are any 3 elements in the array which add up to the given number.<br/>
+  For example:<br/>
+     Given an array {1,2,3,4,5}  and the number 9, return true, as 2,3,4 add up to 9.<br/>
+     Given an array {1,2,3,4,5}  and the number 3, return false, as there are no 3 elements which add up to 3, in the array.<br/>
+2.    Given a number, find the nearest perfect square(modified binary search)<br/>
+  For example:<br/>
+        Given 50, return 49<br/>
+        Given 25, return 25</p>"
+72,"<p><strong>Telephonic 2:</strong><br/>
+1. Write a method to check whether two binary trees are mirrors of each other<br/>
+<a href=""https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/"" target=""_blank"">https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/</a></p>"
+73,"<p>2.    Write a method to print the boundaries of a binary tree<br/>
+<a href=""https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/"" target=""_blank"">https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/</a></p>"
+74,"<p><strong>F2F 1:</strong><br/>
+1. Fill an array with the next greater elements (using stack)<br/>
+<a href=""https://www.geeksforgeeks.org/next-greater-element/"" target=""_blank"">https://www.geeksforgeeks.org/next-greater-element/</a></p>"
+75,"<p>2. Given a binary tree, count the number of occurrences where there are two nodes with the same horizontal distance. To make it clearer, if we assume each node in a cell of a matrix, then count the number of occurrences when there is a collision of two nodes in the same cell.<br/>
+<a href=""https://media.geeksforgeeks.org/wp-content/uploads/amaonTree.jpg""><img alt=""amazonInterview"" class=""aligncenter size-full wp-image-131653"" height=""160"" src=""https://media.geeksforgeeks.org/wp-content/uploads/amaonTree.jpg"" width=""208""/></a></p>"
+76,<p>Here the count is 1 because 5 and 6 occupy the same cell in the matrix</p>
+77,"<p><strong>F2F 2:</strong><br/>
+1. Given a linked list, write a program to check if it is a palindrome<br/>
+2. Write some test methods for stress testing of Furniture class<br/>
+3. Some discussion on automation testing</p>"
+78,"<p><strong><br/>
+F2F 3: (System automation design)</strong><br/>
+System: The user gives a book id to be downloaded and the location in which the book is to be stored. The system downloads the book (if it exists) in the location given by the user and returns a url through which the user can access the book.<br/>
+I was asked to design automated test cases for the system. The interviewer kept adding more and more constraints to the system and we discussed about the pros and cons of my approach.</p>"
+79,"<p><strong>Hiring Manager:</strong><br/>
+1.    Discussion about my current job role<br/>
+2.    Several behavioral and team fit questions<br/>
+3.    What are the things you will consider (both from Developer’s perspective and User perspective) while trying to develop an application for computer aided competitive examinations like CAT, GMAT etc.</p>"
+80,"<p><strong><br/>
+Bar Raiser:</strong><br/>
+1.    Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.<br/>
+I did not write a clean code for this. He moved on because of lack of time.<br/>
+2.    Again discussion of my current job role and about the projects I have worked on.<br/>
+3.    Tell me 3 things that you want to learn/change in yourself<br/>
+4.    Again several team fit questions.</p>"
+81,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+82,<p><!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>
+83,<p></p>
+84,<p>I got to know about the open role through my college placement team. I later contacted the Amazon APAC recruiter on LinkedIn and forwarded my resume stating my interest in the role. the role for which hiring was begin done was <i>Software Development Engineer in Test</i>. </p>
+85,<p>I along with 5 students in my department heard back from the recruiter and we were provided with an online test link. </p>
+86,"<p>The online test was begin held on mettle platform and had 2 coding questions and 20 MCQ’s. the coding questions we easy-medium level and MCQ’s covered ds/algorithm, c language, and OS concepts. </p>"
+87,<p>for clearing the online test I would recommend to regularly practice competitive programming and participate in ongoing contests </p>
+88,<p>I cleared the online test and was further instructed that I will be having my first round in next 2 days. </p>
+89,<p><strong>Round 1:</strong> </p>
+90,<p>The interview was being conducted online on the amazon chime platform. I was asked to introduce my self by the interviewer and then I was asked two coding questions </p>
+91,"<p>problem 1 – <a href=""https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/"">https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/</a> </p>"
+92,<p>I was supposed to clearly explain all the approaches that I was thinking about and also<strong> time and space complexity</strong> were asked. </p>
+93,<p>the interviewer was from java background and I coded in CPP so explaining syntaxes was also important. </p>
+94,<p><strong>Round 2:</strong> </p>
+95,<p><i>This was <strong>design round</strong> and a design problem followed by a graph problem was asked</i> </p>
+96,<p>design problem asked to me – https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ </p>
+97,<p>then I was asked – Number of connected components in an undirected graph </p>
+98,<p>design problem asked that was asked to my friend – https://www.geeksforgeeks.org/implement-a-dictionary-using-trie/ further asked to modify the code to also support https://www.geeksforgeeks.org/auto-complete-feature-using-trie/ </p>
+99,<p><strong>Round 3:</strong> </p>
+100,<p><i>This round was <strong>project discussion</strong> round and then question-related to core CS concepts were asked. </i> </p>
+101,"<p>The interviewer asked why did I choose to build the project and the difficulties that arose while building the project and how I overcame that. also, questions like why did I choose a certain language or framework was asked. </p>"
+102,<p>Then question on OS – deadlock conditions and avoidance and some questions on DBMS were asked. </p>
+103,<p><strong>Round 4 :</strong> </p>
+104,<p><i>This was <strong>bar raiser</strong> round and the interview was being conducted by an engineering manager or someone at a higher position.</i> </p>
+105,<p>question asked – https://leetcode.com/problems/odd-even-linked-list/ </p>
+106,"<p>question asked that was asked to my friend – https://leetcode.com/problems/find-median-from-data-stream/. Also, the whole approach was also asked and was asked to explain why does the algorithm work. </p>"
+107,<p>The overall interview process was very smooth but giving an interview online requires some preparation. The questions asked in Amazon interview are standard classical problems so make sure to practise enough problems. I would recommend first solving around 150 problems on LeetCode and then depending upon the company you are interviewing for practising problems focused on those companies </p>
+108,<p><strong>All the best.</strong><br/> </p>
+109,<p></p>
+110,<p>I got to know about the open role through my college placement team. I later contacted the Amazon APAC recruiter on LinkedIn and forwarded my resume stating my interest in the role. the role for which hiring was begin done was <i>Software Development Engineer in Test</i>. </p>
+111,<p>I along with 5 students in my department heard back from the recruiter and we were provided with an online test link. </p>
+112,"<p>The online test was begin held on mettle platform and had 2 coding questions and 20 MCQ’s. the coding questions we easy-medium level and MCQ’s covered ds/algorithm, c language, and OS concepts. </p>"
+113,<p>for clearing the online test I would recommend to regularly practice competitive programming and participate in ongoing contests </p>
+114,<p>I cleared the online test and was further instructed that I will be having my first round in next 2 days. </p>
+115,<p><strong>Round 1:</strong> </p>
+116,<p>The interview was being conducted online on the amazon chime platform. I was asked to introduce my self by the interviewer and then I was asked two coding questions </p>
+117,"<p>problem 1 – <a href=""https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/"">https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/</a> </p>"
+118,<p>I was supposed to clearly explain all the approaches that I was thinking about and also<strong> time and space complexity</strong> were asked. </p>
+119,<p>the interviewer was from java background and I coded in CPP so explaining syntaxes was also important. </p>
+120,<p><strong>Round 2:</strong> </p>
+121,<p><i>This was <strong>design round</strong> and a design problem followed by a graph problem was asked</i> </p>
+122,<p>design problem asked to me – https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ </p>
+123,<p>then I was asked – Number of connected components in an undirected graph </p>
+124,<p>design problem asked that was asked to my friend – https://www.geeksforgeeks.org/implement-a-dictionary-using-trie/ further asked to modify the code to also support https://www.geeksforgeeks.org/auto-complete-feature-using-trie/ </p>
+125,<p><strong>Round 3:</strong> </p>
+126,<p><i>This round was <strong>project discussion</strong> round and then question-related to core CS concepts were asked. </i> </p>
+127,"<p>The interviewer asked why did I choose to build the project and the difficulties that arose while building the project and how I overcame that. also, questions like why did I choose a certain language or framework was asked. </p>"
+128,<p>Then question on OS – deadlock conditions and avoidance and some questions on DBMS were asked. </p>
+129,<p><strong>Round 4 :</strong> </p>
+130,<p><i>This was <strong>bar raiser</strong> round and the interview was being conducted by an engineering manager or someone at a higher position.</i> </p>
+131,<p>question asked – https://leetcode.com/problems/odd-even-linked-list/ </p>
+132,"<p>question asked that was asked to my friend – https://leetcode.com/problems/find-median-from-data-stream/. Also, the whole approach was also asked and was asked to explain why does the algorithm work. </p>"
+133,<p>The overall interview process was very smooth but giving an interview online requires some preparation. The questions asked in Amazon interview are standard classical problems so make sure to practise enough problems. I would recommend first solving around 150 problems on LeetCode and then depending upon the company you are interviewing for practising problems focused on those companies </p>
+134,<p><strong>All the best.</strong><br/> </p>
+135,<p></p>
+136,<p>This was a pool campus conducted by amazon for internship.</p>
+137,<p><strong>Online Round:</strong> There were 20 mcq(+1 for each) and 2 coding questions(+30 for each). MCQ had more networking and DS problems.</p>
+138,<p>Input will be of this format</p>
+139,"<p>Solving above problem in python is easier than C++. I solved it in C++ using deque(30/30 points).
+</p>"
+140,"<p>Many people(including me) ignored the ascending order part and got 20/30 points. Later during interview, interviewer asked me to explain my code and told me the corner case.</p>"
+141,"<p>Note: Input was given exactly like I said in both problems. It was a bit different from usual problems. You first have to break strings to integers then solve the problem.
+</p>"
+142,<p><strong>Round 2:</strong></p>
+143,"<p>This was on paper round. I have heard there is another easier solution using magic square. 8 were selected from this round.
+</p>"
+144,<p><strong>Round 3:</strong></p>
+145,<p>Technical Interview Round 1</p>
+146,<p>The interview started with the most common questions “Tell me about yourself” and “Projects/Internship”. Then there were few theory questions like what is binary tree? What is binary search tree? Then 2 coding questions.</p>
+147,"<p>Instead of digits, it was string of alphabets. There was a bug in my code. Interviewer gave me a test case and asked me to test it. Changed the approach and solved it by sorting. He asked which sorting and why? First I said merge sort because of nlogn complexity. Then I said since range is small(1-26), we can use count sort. He asked if we really need sorting? Then I said that reversing the second part was sufficient because it was in descending order.
+</p>"
+148,"<p><strong>Round 4:<br/>
+</strong></p>"
+149,<p>Technical Interview Round 2</p>
+150,<p>Again discussion on “Tell me about yourself” and “Projects/Internship”.</p>
+151,<p>He first asked how will you solve this problem. Gave 3 different approaches. Then finally asked to write code for deque approach.</p>
+152,"<p>I was asked few more theory questions from DS and DAA. Like what are some algorithmic paradigm? Difference between Greedy and DP? Questions on Dijkstra(Complexity, greedy or dp). And finally I was given a problem based on graph and was asked which algorithmic paradigm will be used to solve it? Answer was backtracking.</p>"
+153,<p>Interviewers were friendly. They helped us giving hints wherever we got stuck.</p>
+154,"<p>My advice is read past interview experiences from GeeksforGeeks and practice those problems on <a href=""https://practice.geeksforgeeks.org/"">GeeksforGeeks judge</a>. Brush up your CS fundamentals like Data structures, Algorithms, Networking and Database.</p>"
+155,<p>Thank you GeeksforGeeks for helping me during my interview preparation. 🙂                                        </p>
+156,"<p>
+</p>"
+157,<p></p>
+158,<p>This was a pool campus conducted by amazon for internship.</p>
+159,<p><strong>Online Round:</strong> There were 20 mcq(+1 for each) and 2 coding questions(+30 for each). MCQ had more networking and DS problems.</p>
+160,<p>Input will be of this format</p>
+161,"<p>Solving above problem in python is easier than C++. I solved it in C++ using deque(30/30 points).
+</p>"
+162,"<p>Many people(including me) ignored the ascending order part and got 20/30 points. Later during interview, interviewer asked me to explain my code and told me the corner case.</p>"
+163,"<p>Note: Input was given exactly like I said in both problems. It was a bit different from usual problems. You first have to break strings to integers then solve the problem.
+</p>"
+164,<p><strong>Round 2:</strong></p>
+165,"<p>This was on paper round. I have heard there is another easier solution using magic square. 8 were selected from this round.
+</p>"
+166,<p><strong>Round 3:</strong></p>
+167,<p>Technical Interview Round 1</p>
+168,<p>The interview started with the most common questions “Tell me about yourself” and “Projects/Internship”. Then there were few theory questions like what is binary tree? What is binary search tree? Then 2 coding questions.</p>
+169,"<p>Instead of digits, it was string of alphabets. There was a bug in my code. Interviewer gave me a test case and asked me to test it. Changed the approach and solved it by sorting. He asked which sorting and why? First I said merge sort because of nlogn complexity. Then I said since range is small(1-26), we can use count sort. He asked if we really need sorting? Then I said that reversing the second part was sufficient because it was in descending order.
+</p>"
+170,"<p><strong>Round 4:<br/>
+</strong></p>"
+171,<p>Technical Interview Round 2</p>
+172,<p>Again discussion on “Tell me about yourself” and “Projects/Internship”.</p>
+173,<p>He first asked how will you solve this problem. Gave 3 different approaches. Then finally asked to write code for deque approach.</p>
+174,"<p>I was asked few more theory questions from DS and DAA. Like what are some algorithmic paradigm? Difference between Greedy and DP? Questions on Dijkstra(Complexity, greedy or dp). And finally I was given a problem based on graph and was asked which algorithmic paradigm will be used to solve it? Answer was backtracking.</p>"
+175,<p>Interviewers were friendly. They helped us giving hints wherever we got stuck.</p>
+176,"<p>My advice is read past interview experiences from GeeksforGeeks and practice those problems on <a href=""https://practice.geeksforgeeks.org/"">GeeksforGeeks judge</a>. Brush up your CS fundamentals like Data structures, Algorithms, Networking and Database.</p>"
+177,<p>Thank you GeeksforGeeks for helping me during my interview preparation. 🙂                                        </p>
+178,"<p>
+</p>"
+179,<p></p>
+180,"<p>My friend in Amazon referred me for the job . I was approached by the HR and after lots of delay (1 month), I was scheduled a Telephonic Interview.</p>"
+181,<p><strong>Round 1: (Telephonic Interview ) – 1h </strong></p>
+182,<p>A screen was shared (Notepad) where I will be writing codes and doing other rough work. I was doing conversation with him on phone.</p>
+183,"<p>The interviewer was pretty impressed by my coding skills but not so much with my testing skill (I guess :P). Anyways, I got the call for my next rounds. There were <strong>four</strong> of them at <strong>Hyderabad</strong> itself. Amazon took care of all the travelling and stay (Awesome nah :D)</p>"
+184,<p><b>Round 2: (Software development Manager 1 ) : 45 mins</b></p>
+185,<p>Asked questions like:</p>
+186,<p><strong>Round 3: <b>(Software development Manager 2) : 1h</b></strong></p>
+187,<p>Asked questions like:</p>
+188,<p><b>Round 3: (Software development Engineer) : 1h</b></p>
+189,<p>Asked coding questions (Nailed it AF):</p>
+190,<p><b>Round 4: (Quality Assurance Engineer) : 1h</b></p>
+191,"<p>Well, Guess what, I was not selected for the role. They were quite impressed by my coding skills and not so much with my testing skills. Fair enough !</p>"
+192,"<p><strong>Tips for Aspirants: </strong>Study geeks well (mostly the Data structures part and in Algo mostly the DP part). Go through other interview experience of Amazon . <a href=""https://www.geeksforgeeks.org/amazon-interview-preparation/"">https://www.geeksforgeeks.org/amazon-interview-preparation/</a>  For testing, I don’t have much idea.<br/></p>"
+193,"<p>My friend in Amazon referred me for the job . I was approached by the HR and after lots of delay (1 month), I was scheduled a Telephonic Interview.</p>"
+194,<p><strong>Round 1: (Telephonic Interview ) – 1h </strong></p>
+195,<p>A screen was shared (Notepad) where I will be writing codes and doing other rough work. I was doing conversation with him on phone.</p>
+196,"<p>The interviewer was pretty impressed by my coding skills but not so much with my testing skill (I guess :P). Anyways, I got the call for my next rounds. There were <strong>four</strong> of them at <strong>Hyderabad</strong> itself. Amazon took care of all the travelling and stay (Awesome nah :D)</p>"
+197,<p><b>Round 2: (Software development Manager 1 ) : 45 mins</b></p>
+198,<p>Asked questions like:</p>
+199,<p><strong>Round 3: <b>(Software development Manager 2) : 1h</b></strong></p>
+200,<p>Asked questions like:</p>
+201,<p><b>Round 3: (Software development Engineer) : 1h</b></p>
+202,<p>Asked coding questions (Nailed it AF):</p>
+203,<p><b>Round 4: (Quality Assurance Engineer) : 1h</b></p>
+204,"<p>Well, Guess what, I was not selected for the role. They were quite impressed by my coding skills and not so much with my testing skills. Fair enough !</p>"
+205,"<p><strong>Tips for Aspirants: </strong>Study geeks well (mostly the Data structures part and in Algo mostly the DP part). Go through other interview experience of Amazon . <a href=""https://www.geeksforgeeks.org/amazon-interview-preparation/"">https://www.geeksforgeeks.org/amazon-interview-preparation/</a>  For testing, I don’t have much idea.<br/></p>"
+206,"<p><strong>Amazon…</strong> <em><strong>“Hire and Develop the Best”.</strong></em> One of the <a href=""https://en.wikipedia.org/wiki/Big_Four_tech_companies"" rel=""noopener"" target=""_blank"">Big Four Tech Companies</a> who cares a lot about their <a href=""https://www.amazon.jobs/en/principles"" rel=""noopener"" target=""_blank"">Leadership Principles</a> when it comes to opening a door for a candidate in the company. Amazon is a top company according to <a href=""https://www.linkedin.com/pulse/linkedin-top-companies-2018-where-us-wants-work-now-daniel-roth/"" rel=""noopener"" target=""_blank"">2018 LinkedIn Article</a>. If you are a person who is preparing yourself to get into this company, you might be definitely aware of the importance of <strong><a href=""https://www.geeksforgeeks.org/data-structures/"" rel=""noopener"" target=""_blank"">Data Structures and Algorithms</a></strong> for interview preparation. </p>"
+207,"<p><img alt=""Amazon-Interview-Preparation"" class=""aligncenter size-full wp-image-350608"" sizes=""(max-width: 1000px) 100vw, 1000px"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation.png"" srcset=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation.png 1000w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-300x199.png 300w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-768x509.png 768w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-660x438.png 660w""/></p>"
+208,"<p>There is no doubt that this one is a must-have skill to apply for the job of SDE or software engineer role in Amazon or any other big tech company. Hiring procedures in these companies are kind of similar but we are going to share some specific detail, tips, preparation strategy and evaluation process of Amazon to crack the interview. Keep in mind that the difficulty level of these rounds depends on the level of SDE position you are applying and you can prefer any programming language you are comfortable with.</p>"
+209,<p><strong>Important Points to Keep in Mind:</strong> </p>
+210,"<p>Now it’s time to discuss the strategy and rounds that Amazon conducts for the hiring procedure. But before that keep in mind a quick tip that works in every company…<em><strong>Your goal is to write just the right amount of good code and communicate well. You’re not paid to code, you’re paid to think, figure out problems and give the solution.</strong></em> To crack any technical interview all you just need is a laptop, a working internet connection, will to solve problems regularly and within a few months, you can learn the essentials.</p>"
+211,<p>The interview procedure in Amazon kind of similar to other big tech companies so let’s discuss that…</p>
+212,"<p><strong>Sending Application:</strong> Getting a call from Amazon for an interview is not easy if you don’t have any referral. Your chances to get the interview call is more if you have a connection with an employee there. If you don’t have we highly recommend making connection with hiring managers or recruiters via <a href=""https://www.linkedin.com/search/results/all/?authorCompany=%5B%5D&amp;authorIndustry=%5B%5D&amp;contactInterest=%5B%5D&amp;facetCity=%5B%5D&amp;facetCompany=%5B%5D&amp;facetConnectionOf=%5B%5D&amp;facetCurrentCompany=%5B%5D&amp;facetCurrentFunction=%5B%5D&amp;facetGeoRegion=%5B%5D&amp;facetGroup=%5B%5D&amp;facetGuides=%5B%5D&amp;facetIndustry=%5B%5D&amp;facetNetwork=%5B%5D&amp;facetNonprofitInterest=%5B%5D&amp;facetPastCompany=%5B%5D&amp;facetProfessionalEvent=%5B%5D&amp;facetProfileLanguage=%5B%5D&amp;facetRegion=%5B%5D&amp;facetSchool=%5B%5D&amp;facetSeniority=%5B%5D&amp;facetServiceCategory=%5B%5D&amp;facetState=%5B%5D&amp;groups=%5B%5D&amp;keywords=amazon%20recruiters%20and%20hiring%20managers&amp;origin=GLOBAL_SEARCH_HEADER&amp;page=1&amp;refresh=false&amp;skillExplicit=%5B%5D&amp;topic=%5B%5D"" rel=""noopener"" target=""_blank"">LinkedIn</a>. Also, focus on your CV when you are applying for the job. Make it short, precise because none of the recruiters has more than 15 seconds to scan a CV. Write down only those things you are comfortable with, do not fake anything because the interviewer can spot that easily during the interview.. Below is the link for the guidelines of CV.<br/>
+1. <a href=""https://www.geeksforgeeks.org/resume-building-resources-and-tips/"" rel=""noopener"" target=""_blank"">Resume Building – Resources and Tips</a><br/>
+2. <a href=""http://www.codespaghetti.com/cv-tips/"" rel=""noopener"" target=""_blank"">How to write an awesome and unique CV.</a></p>"
+213,"<p><strong>Screening Interview:</strong> Shall we invite this candidate for the full loop? To filter out a lot of candidates Amazon conduct this round and this round saves a lot of time and resources of the company. So there will be 1-2 screening rounds before the onsite interview. The screening round could be telephonic or you will be asked to complete a coding challenge where you need to write clean, good and bug-free code and that should be also optimized. This round consists of basic to medium level data structures and algorithms questions, you will have some online document to write down your code and that will be visible to your interviewer. It can have a 2-3 coding question. Below is the point to keep in mind for an online coding challenge or telephonic interview.</p>"
+214,"<p><strong>Onsite Interview:</strong> Once you get selected in the previous round, you will be invited for a loop that will take one full day, consisting of about four to five separate interviews and each of these interviews takes roughly an hour. All these rounds will be technical with BR round (All Technical + One Managerial) at the end. The exact number of rounds depends upon how you perform in each round and the level you are applying for. Now here comes the role of DSA and CS fundamentals to check your coding and problem-solving skill. You need to prepare yourself with all your projects, internship, previous experiences and definitely your coding and problem-solving skill. </p>"
+215,<p>We are going to categorize this in the below section…</p>
+216,"<p><img alt=""Amazon-Data-Structure-Graph"" class=""aligncenter size-full wp-image-348407"" sizes=""(max-width: 800px) 100vw, 800px"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph.png"" srcset=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph.png 800w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-300x202.png 300w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-768x517.png 768w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-660x445.png 660w""/></p>"
+217,<p> </p>
+218,<p> </p>
+219,"<p><strong>Interview Evaluation Criteria:</strong> After the interview a meeting is held between all the interviewers to discuss, debate, and justify their individual ratings with the Hiring Manager and HR Representative. The interviewers give the whole summary after the interview. The outcome of this meeting will be a final Inclined or Not-Inclined decision for the candidate.<br/>
+A software engineer is expected to know how to code, know when to ask for guidance, ability to articulate the thought process, approach to solving a problem and deliver results timely while maintaining a willingness to learn new processes and adapt quickly to changing roadmaps. An entry-level basic understanding of the core concepts of coding is generally all that is required and for higher-level ability to code and solve the complex problems based on experience matter a lot. </p>"
+220,<p><strong>Tips:</strong></p>
+221,<p><strong>Important Links:</strong></p>
+222,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article using <a href=""https://contribute.geeksforgeeks.org/"">contribute.geeksforgeeks.org</a> or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+223,"<p>Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.</p>"
+224,"<p><strong>Amazon…</strong> <em><strong>“Hire and Develop the Best”.</strong></em> One of the <a href=""https://en.wikipedia.org/wiki/Big_Four_tech_companies"" rel=""noopener"" target=""_blank"">Big Four Tech Companies</a> who cares a lot about their <a href=""https://www.amazon.jobs/en/principles"" rel=""noopener"" target=""_blank"">Leadership Principles</a> when it comes to opening a door for a candidate in the company. Amazon is a top company according to <a href=""https://www.linkedin.com/pulse/linkedin-top-companies-2018-where-us-wants-work-now-daniel-roth/"" rel=""noopener"" target=""_blank"">2018 LinkedIn Article</a>. If you are a person who is preparing yourself to get into this company, you might be definitely aware of the importance of <strong><a href=""https://www.geeksforgeeks.org/data-structures/"" rel=""noopener"" target=""_blank"">Data Structures and Algorithms</a></strong> for interview preparation. </p>"
+225,"<p><img alt=""Amazon-Interview-Preparation"" class=""aligncenter size-full wp-image-350608"" sizes=""(max-width: 1000px) 100vw, 1000px"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation.png"" srcset=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation.png 1000w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-300x199.png 300w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-768x509.png 768w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191014193905/Amazon-Interview-Preparation-660x438.png 660w""/></p>"
+226,"<p>There is no doubt that this one is a must-have skill to apply for the job of SDE or software engineer role in Amazon or any other big tech company. Hiring procedures in these companies are kind of similar but we are going to share some specific detail, tips, preparation strategy and evaluation process of Amazon to crack the interview. Keep in mind that the difficulty level of these rounds depends on the level of SDE position you are applying and you can prefer any programming language you are comfortable with.</p>"
+227,<p><strong>Important Points to Keep in Mind:</strong> </p>
+228,"<p>Now it’s time to discuss the strategy and rounds that Amazon conducts for the hiring procedure. But before that keep in mind a quick tip that works in every company…<em><strong>Your goal is to write just the right amount of good code and communicate well. You’re not paid to code, you’re paid to think, figure out problems and give the solution.</strong></em> To crack any technical interview all you just need is a laptop, a working internet connection, will to solve problems regularly and within a few months, you can learn the essentials.</p>"
+229,<p>The interview procedure in Amazon kind of similar to other big tech companies so let’s discuss that…</p>
+230,"<p><strong>Sending Application:</strong> Getting a call from Amazon for an interview is not easy if you don’t have any referral. Your chances to get the interview call is more if you have a connection with an employee there. If you don’t have we highly recommend making connection with hiring managers or recruiters via <a href=""https://www.linkedin.com/search/results/all/?authorCompany=%5B%5D&amp;authorIndustry=%5B%5D&amp;contactInterest=%5B%5D&amp;facetCity=%5B%5D&amp;facetCompany=%5B%5D&amp;facetConnectionOf=%5B%5D&amp;facetCurrentCompany=%5B%5D&amp;facetCurrentFunction=%5B%5D&amp;facetGeoRegion=%5B%5D&amp;facetGroup=%5B%5D&amp;facetGuides=%5B%5D&amp;facetIndustry=%5B%5D&amp;facetNetwork=%5B%5D&amp;facetNonprofitInterest=%5B%5D&amp;facetPastCompany=%5B%5D&amp;facetProfessionalEvent=%5B%5D&amp;facetProfileLanguage=%5B%5D&amp;facetRegion=%5B%5D&amp;facetSchool=%5B%5D&amp;facetSeniority=%5B%5D&amp;facetServiceCategory=%5B%5D&amp;facetState=%5B%5D&amp;groups=%5B%5D&amp;keywords=amazon%20recruiters%20and%20hiring%20managers&amp;origin=GLOBAL_SEARCH_HEADER&amp;page=1&amp;refresh=false&amp;skillExplicit=%5B%5D&amp;topic=%5B%5D"" rel=""noopener"" target=""_blank"">LinkedIn</a>. Also, focus on your CV when you are applying for the job. Make it short, precise because none of the recruiters has more than 15 seconds to scan a CV. Write down only those things you are comfortable with, do not fake anything because the interviewer can spot that easily during the interview.. Below is the link for the guidelines of CV.<br/>
+1. <a href=""https://www.geeksforgeeks.org/resume-building-resources-and-tips/"" rel=""noopener"" target=""_blank"">Resume Building – Resources and Tips</a><br/>
+2. <a href=""http://www.codespaghetti.com/cv-tips/"" rel=""noopener"" target=""_blank"">How to write an awesome and unique CV.</a></p>"
+231,"<p><strong>Screening Interview:</strong> Shall we invite this candidate for the full loop? To filter out a lot of candidates Amazon conduct this round and this round saves a lot of time and resources of the company. So there will be 1-2 screening rounds before the onsite interview. The screening round could be telephonic or you will be asked to complete a coding challenge where you need to write clean, good and bug-free code and that should be also optimized. This round consists of basic to medium level data structures and algorithms questions, you will have some online document to write down your code and that will be visible to your interviewer. It can have a 2-3 coding question. Below is the point to keep in mind for an online coding challenge or telephonic interview.</p>"
+232,"<p><strong>Onsite Interview:</strong> Once you get selected in the previous round, you will be invited for a loop that will take one full day, consisting of about four to five separate interviews and each of these interviews takes roughly an hour. All these rounds will be technical with BR round (All Technical + One Managerial) at the end. The exact number of rounds depends upon how you perform in each round and the level you are applying for. Now here comes the role of DSA and CS fundamentals to check your coding and problem-solving skill. You need to prepare yourself with all your projects, internship, previous experiences and definitely your coding and problem-solving skill. </p>"
+233,<p>We are going to categorize this in the below section…</p>
+234,"<p><img alt=""Amazon-Data-Structure-Graph"" class=""aligncenter size-full wp-image-348407"" sizes=""(max-width: 800px) 100vw, 800px"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph.png"" srcset=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph.png 800w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-300x202.png 300w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-768x517.png 768w, https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191001192541/Amazon-Data-Structure-Graph-660x445.png 660w""/></p>"
+235,<p> </p>
+236,<p> </p>
+237,"<p><strong>Interview Evaluation Criteria:</strong> After the interview a meeting is held between all the interviewers to discuss, debate, and justify their individual ratings with the Hiring Manager and HR Representative. The interviewers give the whole summary after the interview. The outcome of this meeting will be a final Inclined or Not-Inclined decision for the candidate.<br/>
+A software engineer is expected to know how to code, know when to ask for guidance, ability to articulate the thought process, approach to solving a problem and deliver results timely while maintaining a willingness to learn new processes and adapt quickly to changing roadmaps. An entry-level basic understanding of the core concepts of coding is generally all that is required and for higher-level ability to code and solve the complex problems based on experience matter a lot. </p>"
+238,<p><strong>Tips:</strong></p>
+239,<p><strong>Important Links:</strong></p>
+240,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article using <a href=""https://contribute.geeksforgeeks.org/"">contribute.geeksforgeeks.org</a> or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+241,"<p>Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.</p>"
+242,"<p>It’s an on campus recruitment. The interview process started on October, 2015.</p>"
+243,"<p>It had 25 MCQ questions from core subjects of CS including Operating systems, Database, Networks, Data structures and algorithms, Fundamentals of programming. Apart from that there was 2 programming questions too. Those who solved at least 1 programming problem and few MCQ questions were selected for next round. But it’s better to solve both the programming questions. I was asked the following questions:</p>"
+244,<p>It was a phone interview of duration 1 hour. It was conducted on collabedit.com. This round consisted 2 data structures and algorithms related questions. I was asked the following questions:</p>
+245,<p>It was similar to that of round 2. I was asked the following questions:</p>
+246,<p>Overall it was an awesome experience. I enjoyed the interview process.</p>
+247,<p>Thanks for geeksforgeeks!</p>
+248,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+249,"<p>Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+250,<p></p>
+251,"<p>It’s an on campus recruitment. The interview process started on October, 2015.</p>"
+252,"<p>It had 25 MCQ questions from core subjects of CS including Operating systems, Database, Networks, Data structures and algorithms, Fundamentals of programming. Apart from that there was 2 programming questions too. Those who solved at least 1 programming problem and few MCQ questions were selected for next round. But it’s better to solve both the programming questions. I was asked the following questions:</p>"
+253,<p>It was a phone interview of duration 1 hour. It was conducted on collabedit.com. This round consisted 2 data structures and algorithms related questions. I was asked the following questions:</p>
+254,<p>It was similar to that of round 2. I was asked the following questions:</p>
+255,<p>Overall it was an awesome experience. I enjoyed the interview process.</p>
+256,<p>Thanks for geeksforgeeks!</p>
+257,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.</p>"
+258,"<p>Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+259,<p></p>
+260,<p>Amazon visited my college and offered me SDET-I position. GeeksforGeeks helped a real lot in my interview preparation. Thank you very much GeeksforGeeks!<!--more--></p>
+261,<p>Here is my interview experience:</p>
+262,"<p><strong>Round 1  (On-line Coding Round on HackerRank):</strong><br/>
+1.	Given an array of sorted integers which represent box sizes and an integer representing an item size<br/>
+    You have to find best fit box for the item (-1 in case of no box found)<br/>
+  For example:<br/>
+    Given 10,20,30,40,50,60,70  and 45<br/>
+      You have to print 50<br/>
+    Given 10,20,30,40,50,60,70  and 75<br/>
+      You have to print -1<br/>
+      Given 10,20,30,40,50,60,70  and 50<br/>
+    You have to print 50<br/>
+2.	<a href=""https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/"" target=""_blank"">https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/<br/>
+</a></p>"
+263,"<p><strong><br/>
+F2F 1:</strong><br/>
+1. Given an array of integers<br/>
+you have to output sequence a1,a2,a3,a4,a5,a6,a7  such that a1<a2>a3<a4>a5<a6>a7<br/>
+    For example:<br/>
+    Given 10,20,30,40,50,60,70<br/>
+      You have to print 10, 30, 20, 50, 40, 70, 60<br/>
+At first, I gave answer using sorting. But my interviewer asked me to do this without sorting the input array, and I did it.<br/>
+2. A simple question on Tree data structure which i don’t remember.<br/>
+3. Questions related to my project.</a6></a4></a2></p>"
+264,"<p><strong><br/>
+F2F 2:</strong><br/>
+1. A matrix is given which is sorted row wise and column wise<br/>
+You have to print the sorted order.<br/>
+    For example:<br/>
+    Given<br/>
+       1 2 3 4 6 8<br/>
+       2 3 3 4 7 8<br/>
+       2 3 4 5 7 8<br/>
+       2 3 4 5 8 8<br/>
+       3 4 4 6 8 9<br/>
+       4 5 5 7 8 9<br/>
+    You have to print sorted order<br/>
+2. Questions related to my project during my internship.</p>"
+265,"<p><strong>F2F 3: </strong><br/>
+1.What happens when we type amazon.com<br/>
+Relating  to this the interviewer asked me every step in detail including all 7 layers of networks.<br/>
+Protocols like: HTTP, HTTPS, DHCP, DNS, IMAP, POP, TCP, UDP etc. Their uses and differences.<br/>
+2. Describe ACID property of a transaction (DBMS).</p>"
+266,"<p><strong>Bar Raiser(Telephonic):</strong><br/>
+1.	Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.<br/>
+He asked me to inform if I have seen the question.<br/>
+And I replied : Yes sir, it is the similar question I faced in coding round of Amazon-internship last year.<br/>
+But he didn’t changed the question.<br/>
+I solved it with a silly mistake which i corrected when mentioned.<br/>
+2.	Long discussion on my internship and about the projects I have worked on.<br/>
+3.	Tell about your criticism.<br/>
+4.	3 weaknesses currently i am working.</p>"
+267,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+268,<p></p>
+269,<p>Amazon visited my college and offered me SDET-I position. GeeksforGeeks helped a real lot in my interview preparation. Thank you very much GeeksforGeeks!<!--more--></p>
+270,<p>Here is my interview experience:</p>
+271,"<p><strong>Round 1  (On-line Coding Round on HackerRank):</strong><br/>
+1.	Given an array of sorted integers which represent box sizes and an integer representing an item size<br/>
+    You have to find best fit box for the item (-1 in case of no box found)<br/>
+  For example:<br/>
+    Given 10,20,30,40,50,60,70  and 45<br/>
+      You have to print 50<br/>
+    Given 10,20,30,40,50,60,70  and 75<br/>
+      You have to print -1<br/>
+      Given 10,20,30,40,50,60,70  and 50<br/>
+    You have to print 50<br/>
+2.	<a href=""https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/"" target=""_blank"">https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/<br/>
+</a></p>"
+272,"<p><strong><br/>
+F2F 1:</strong><br/>
+1. Given an array of integers<br/>
+you have to output sequence a1,a2,a3,a4,a5,a6,a7  such that a1<a2>a3<a4>a5<a6>a7<br/>
+    For example:<br/>
+    Given 10,20,30,40,50,60,70<br/>
+      You have to print 10, 30, 20, 50, 40, 70, 60<br/>
+At first, I gave answer using sorting. But my interviewer asked me to do this without sorting the input array, and I did it.<br/>
+2. A simple question on Tree data structure which i don’t remember.<br/>
+3. Questions related to my project.</a6></a4></a2></p>"
+273,"<p><strong><br/>
+F2F 2:</strong><br/>
+1. A matrix is given which is sorted row wise and column wise<br/>
+You have to print the sorted order.<br/>
+    For example:<br/>
+    Given<br/>
+       1 2 3 4 6 8<br/>
+       2 3 3 4 7 8<br/>
+       2 3 4 5 7 8<br/>
+       2 3 4 5 8 8<br/>
+       3 4 4 6 8 9<br/>
+       4 5 5 7 8 9<br/>
+    You have to print sorted order<br/>
+2. Questions related to my project during my internship.</p>"
+274,"<p><strong>F2F 3: </strong><br/>
+1.What happens when we type amazon.com<br/>
+Relating  to this the interviewer asked me every step in detail including all 7 layers of networks.<br/>
+Protocols like: HTTP, HTTPS, DHCP, DNS, IMAP, POP, TCP, UDP etc. Their uses and differences.<br/>
+2. Describe ACID property of a transaction (DBMS).</p>"
+275,"<p><strong>Bar Raiser(Telephonic):</strong><br/>
+1.	Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.<br/>
+He asked me to inform if I have seen the question.<br/>
+And I replied : Yes sir, it is the similar question I faced in coding round of Amazon-internship last year.<br/>
+But he didn’t changed the question.<br/>
+I solved it with a silly mistake which i corrected when mentioned.<br/>
+2.	Long discussion on my internship and about the projects I have worked on.<br/>
+3.	Tell about your criticism.<br/>
+4.	3 weaknesses currently i am working.</p>"
+276,"<p>If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+277,<p></p>
+278,<p>I applied through an employee referral for SDET-1 position. I was interviewed at Amazon Chennai(SP Infocity).I faced 5 face to face rounds.</p>
+279,"<p>On October 11th, I faced the first round which was mainly related to problem solving and coding.</p>"
+280,<p><strong>Round 1:Problem Solving and Coding Round(1 hr)</strong></p>
+281,<p>The interviewer just started with a formal question of introduce yourself.Then she asked me about my final year project which I clearly explained and sketched it on the board.</p>
+282,<p>Then she asked me two coding questions.</p>
+283,<p>If the given input is 2 3 6.</p>
+284,<p>2 corresponds to abc. 3 corresponds to def. 6 corresponds to mno.</p>
+285,"<p>Suppose if we have to generate all combinations of 2,3,6 the output should be a set of strings</p>"
+286,"<p>adm,adn,ad0,bdm,bdn,bd0,…..</p>"
+287,<p>I gave a recursive and an iterative solution to print the combinations.</p>
+288,<p>Then the interviewer modified the question slightly.She asked me to validate the generated strings with a dictionary.</p>
+289,<p>I gave two approaches for maintaining the dictionary. First I suggested a hash table approach which takes O(1) average time complexity for insert delete and search operations.</p>
+290,<p>Then since the generated strings have common prefixes I suggested a trie approach for the dictionary.</p>
+291,<p>The interviewer was pleased with my solution and asked me to code the solution completely.</p>
+292,<p>After a few days I had 2 face to face rounds.</p>
+293,<p><strong>Round 2:Testing and Automation round(1 hr)</strong></p>
+294,<p>The interviewer just started out by asking whether I had previous knowledge about testing and testing environments to which I replied no.Then we discussed about the types of testing and the different phases and the testing procedures that are associated with it. Then she asked me two simple test case generation questions.</p>
+295,<p>I gave around 10 test cases for the question as it was pretty much straight forward. And I coded a few by using JUnit testing which is really simple.</p>
+296,<p>2. Given a open file module in an editor what are the possible scenarios in which the open file module might give errors.</p>
+297,<p>I gave a list of cases which we clearly discussed about the ins and outs of each one.</p>
+298,<p>This round was quite easy since I prepared the testing part the previous day.</p>
+299,<p><strong>Round 3:Data Structures and Algorithms Round(1hr 15 mins)</strong></p>
+300,<p>Two guys interviewed me this round. We just started out with a formal introduction.Then they asked me two questions.</p>
+301,"<p>Given a n*n chessboard and a knight which is placed at any one corner, Generate all possible paths following which the knight can cover all the squares.</p>"
+302,<p>I started with a approach using BFS. But there was a flaw in my approach which was that the knight would not escape from a cell if all the possible points the knight can go from that given point was explored previously.</p>
+303,<p>Then I gave a solution using Backtracking.</p>
+304,"<p>Start with a corner.For each and every possible point the knight can reach make recursive calls to those using a simple for loop.Once the count reaches n*n(Example in a 8*8 chessboard,if the count is 64),Print out the traversed path that can be easily maintained in an array. This solves the flaw in my previous approach as we are able to go back to the other possibilty if a dead path is reached.</p>"
+305,<p>The interviewer was happy with my approach and asked me to code the solution. I coded it and then we moved on to the next question.</p>
+306,"<p>2. <a href=""https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1"" rel=""noopener"" target=""_blank"">Given a linked list find the intersection point of two linked lists which converge at a common point</a>.</p>"
+307,<p>I gave a brute force O(n^2) approach at first then optimised it to O(n) time and O(n) Space approach.Then I finally gave a O(n) time O(1) space solution by finding the absolute difference of the lengths of the two lists.Then they asked me to code the solution which was pretty much straight forward.</p>
+308,<p>After this I had the final two rounds on October 31st.</p>
+309,<p><strong>Round 4:Hiring Manager Round(1hr)</strong></p>
+310,<p>The interviewer asked me to brief about myself.We then settled down on my project for the first few minutes and then the interviewer asked about the interviews that I had attended earlier and how the process went through. Then he started asking about testing and the use of testing corresponding to some given scenarios. After a few minutes of discussion he asked two questions regarding data structures.</p>
+311,<p>I gave a O(nlogn) approach at first to find the pairs and print them. The approach was to sort the array and keep two indexes(at each end) left and right and find whether pairs that add up to the given sum and print them until the left and right pointers cross.</p>
+312,"<p>Then he asked me if I can optimize it further. I gave a O(n) approach using hashing.I maintained a hashset of integers. Put the first number in the hashset, start from the second element and for each number in the array check whether (Given sum – Current element) is present in the hashset. If so print the pair.</p>"
+313,"<p>2. <a href=""https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"" rel=""noopener"" target=""_blank"">Given a binary tree print the bottom view of it</a>.</p>"
+314,<p>After a few minutes of thinking I came up with an approach by using the horizontal distance of the nodes from the root. We have to keep note of the last node at a particular horizontal distance while traversing using level order traversal. I used a Hashtable to store the last visited node at each horizontal distance.</p>
+315,<p>This approach uses O(n) time and O(n) space.</p>
+316,<p>He then asked a puzzle.</p>
+317,"<p>In a room of 30 people,find the unique number of handshakes given a condition that each one in the room should have shaken hands with everyone.</p>"
+318,"<p>I just used a simple logic. In a room of 2 people,there is only one unique hand shake(First person has 1 unique handshake whereas the second one has none). If we consider three people,n = 3 (A,B,C)</p>"
+319,"<p>A has two unique handshakes B,C.(n-1 handshakes)</p>"
+320,<p>B has 1 unique handshake C.(n-2 handshakes)</p>
+321,<p>C doesn’t have any unique handshake.</p>
+322,<p>total number of handshakes = n-1 + n-2 = 2n-3  = 3.(which is the sum of first two natural  numbers)</p>
+323,<p>Similarly for n persons the unique handshakes would be the sum of first n-1 natural numbers.</p>
+324,"<p>For n = 30, Total number of unique handshakes is 29*30/2  = 29*15 = 435.</p>"
+325,<p>That’s a wrap. He was happy with the way I approached the solution.</p>
+326,<p>He asked if I had any questions for him. I asked about the culture and working environment at amazon.</p>
+327,<p><strong>Round 5:Bar Raiser Round(1hr)</strong></p>
+328,<p>Two members entered the room and introduced themselves and we just started out with my introduction and my project.</p>
+329,<p>They asked me how many rounds I had before the current one. They just asked a few questions about testing at first.Then they asked two coding questions.</p>
+330,"<p>I just instantly started with a brute force solution by finding the inorder traversal of the tree.Then sort the array and find the kth largest in the sorted array which is the (n-k)th element from the start index of the array,where n is the total number of nodes in the tree.This uses O(nlogn) time and O(n) space.</p>"
+331,<p>They asked me to optimize it further.</p>
+332,<p>I gave a O(nlogn) time and O(1) space solution by converting the binary tree into doubly linked list and then finding the kth largest in a doubly linked list which can be done in O(nlogn) time.</p>
+333,"<p>But there is a better solution for this which I couldn’t think of during the interview.Just construct a minheap of k elements,Insert elements into the heap by traversing the tree using any traversal.</p>"
+334,<p>If the heap root element is smaller than the current node in the tree remove the root element from heap and insert the  new element to the heap. At last after the complete traversal of the tree the kth largest element will be at the root of the heap.This uses O(nlogk) time and O(k) space.</p>
+335,<p>But they were happy with my approach as they said me to optimise it either by space or time. I gave a constant space approach so they were satisfied.</p>
+336,"<p>2.<a href=""https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"" rel=""noopener"" target=""_blank"">Given a directed graph, find whether there exists a cycle or not.If it does exist print it.</a></p>"
+337,<p>I gave a solution using BFS. I put a node in the queue and then added all possible nodes that can be reached from the current node. While we traverse the nodes we just mark the node as visited in the hashmap in order to avoid indefinite looping between nodes. They were satisfied with my approach.</p>
+338,<p>Finally they asked how HashMap is implemented and how it works(especially how hashcode and index are computed). I designed my own hash function and explained the way get and put functions work in a hashmap. They were happy with my explanation and then they asked how would you modify your hash function in case of collision and discussed in brief about collision handling techniques.</p>
+339,<p>They asked if I had any questions for them. I just asked the same question I asked the previous round.</p>
+340,"<p>P.S: For each question we have to write the code clearly. Don’t just dive straight into the coding part, explain your approach clearly. Be confident and they don’t want the optimized solution for the question,they see how the candidate approaches the question.<br/></p>"
+341,<p>I applied through an employee referral for SDET-1 position. I was interviewed at Amazon Chennai(SP Infocity).I faced 5 face to face rounds.</p>
+342,"<p>On October 11th, I faced the first round which was mainly related to problem solving and coding.</p>"
+343,<p><strong>Round 1:Problem Solving and Coding Round(1 hr)</strong></p>
+344,<p>The interviewer just started with a formal question of introduce yourself.Then she asked me about my final year project which I clearly explained and sketched it on the board.</p>
+345,<p>Then she asked me two coding questions.</p>
+346,<p>If the given input is 2 3 6.</p>
+347,<p>2 corresponds to abc. 3 corresponds to def. 6 corresponds to mno.</p>
+348,"<p>Suppose if we have to generate all combinations of 2,3,6 the output should be a set of strings</p>"
+349,"<p>adm,adn,ad0,bdm,bdn,bd0,…..</p>"
+350,<p>I gave a recursive and an iterative solution to print the combinations.</p>
+351,<p>Then the interviewer modified the question slightly.She asked me to validate the generated strings with a dictionary.</p>
+352,<p>I gave two approaches for maintaining the dictionary. First I suggested a hash table approach which takes O(1) average time complexity for insert delete and search operations.</p>
+353,<p>Then since the generated strings have common prefixes I suggested a trie approach for the dictionary.</p>
+354,<p>The interviewer was pleased with my solution and asked me to code the solution completely.</p>
+355,<p>After a few days I had 2 face to face rounds.</p>
+356,<p><strong>Round 2:Testing and Automation round(1 hr)</strong></p>
+357,<p>The interviewer just started out by asking whether I had previous knowledge about testing and testing environments to which I replied no.Then we discussed about the types of testing and the different phases and the testing procedures that are associated with it. Then she asked me two simple test case generation questions.</p>
+358,<p>I gave around 10 test cases for the question as it was pretty much straight forward. And I coded a few by using JUnit testing which is really simple.</p>
+359,<p>2. Given a open file module in an editor what are the possible scenarios in which the open file module might give errors.</p>
+360,<p>I gave a list of cases which we clearly discussed about the ins and outs of each one.</p>
+361,<p>This round was quite easy since I prepared the testing part the previous day.</p>
+362,<p><strong>Round 3:Data Structures and Algorithms Round(1hr 15 mins)</strong></p>
+363,<p>Two guys interviewed me this round. We just started out with a formal introduction.Then they asked me two questions.</p>
+364,"<p>Given a n*n chessboard and a knight which is placed at any one corner, Generate all possible paths following which the knight can cover all the squares.</p>"
+365,<p>I started with a approach using BFS. But there was a flaw in my approach which was that the knight would not escape from a cell if all the possible points the knight can go from that given point was explored previously.</p>
+366,<p>Then I gave a solution using Backtracking.</p>
+367,"<p>Start with a corner.For each and every possible point the knight can reach make recursive calls to those using a simple for loop.Once the count reaches n*n(Example in a 8*8 chessboard,if the count is 64),Print out the traversed path that can be easily maintained in an array. This solves the flaw in my previous approach as we are able to go back to the other possibilty if a dead path is reached.</p>"
+368,<p>The interviewer was happy with my approach and asked me to code the solution. I coded it and then we moved on to the next question.</p>
+369,"<p>2. <a href=""https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1"" rel=""noopener"" target=""_blank"">Given a linked list find the intersection point of two linked lists which converge at a common point</a>.</p>"
+370,<p>I gave a brute force O(n^2) approach at first then optimised it to O(n) time and O(n) Space approach.Then I finally gave a O(n) time O(1) space solution by finding the absolute difference of the lengths of the two lists.Then they asked me to code the solution which was pretty much straight forward.</p>
+371,<p>After this I had the final two rounds on October 31st.</p>
+372,<p><strong>Round 4:Hiring Manager Round(1hr)</strong></p>
+373,<p>The interviewer asked me to brief about myself.We then settled down on my project for the first few minutes and then the interviewer asked about the interviews that I had attended earlier and how the process went through. Then he started asking about testing and the use of testing corresponding to some given scenarios. After a few minutes of discussion he asked two questions regarding data structures.</p>
+374,<p>I gave a O(nlogn) approach at first to find the pairs and print them. The approach was to sort the array and keep two indexes(at each end) left and right and find whether pairs that add up to the given sum and print them until the left and right pointers cross.</p>
+375,"<p>Then he asked me if I can optimize it further. I gave a O(n) approach using hashing.I maintained a hashset of integers. Put the first number in the hashset, start from the second element and for each number in the array check whether (Given sum – Current element) is present in the hashset. If so print the pair.</p>"
+376,"<p>2. <a href=""https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"" rel=""noopener"" target=""_blank"">Given a binary tree print the bottom view of it</a>.</p>"
+377,<p>After a few minutes of thinking I came up with an approach by using the horizontal distance of the nodes from the root. We have to keep note of the last node at a particular horizontal distance while traversing using level order traversal. I used a Hashtable to store the last visited node at each horizontal distance.</p>
+378,<p>This approach uses O(n) time and O(n) space.</p>
+379,<p>He then asked a puzzle.</p>
+380,"<p>In a room of 30 people,find the unique number of handshakes given a condition that each one in the room should have shaken hands with everyone.</p>"
+381,"<p>I just used a simple logic. In a room of 2 people,there is only one unique hand shake(First person has 1 unique handshake whereas the second one has none). If we consider three people,n = 3 (A,B,C)</p>"
+382,"<p>A has two unique handshakes B,C.(n-1 handshakes)</p>"
+383,<p>B has 1 unique handshake C.(n-2 handshakes)</p>
+384,<p>C doesn’t have any unique handshake.</p>
+385,<p>total number of handshakes = n-1 + n-2 = 2n-3  = 3.(which is the sum of first two natural  numbers)</p>
+386,<p>Similarly for n persons the unique handshakes would be the sum of first n-1 natural numbers.</p>
+387,"<p>For n = 30, Total number of unique handshakes is 29*30/2  = 29*15 = 435.</p>"
+388,<p>That’s a wrap. He was happy with the way I approached the solution.</p>
+389,<p>He asked if I had any questions for him. I asked about the culture and working environment at amazon.</p>
+390,<p><strong>Round 5:Bar Raiser Round(1hr)</strong></p>
+391,<p>Two members entered the room and introduced themselves and we just started out with my introduction and my project.</p>
+392,<p>They asked me how many rounds I had before the current one. They just asked a few questions about testing at first.Then they asked two coding questions.</p>
+393,"<p>I just instantly started with a brute force solution by finding the inorder traversal of the tree.Then sort the array and find the kth largest in the sorted array which is the (n-k)th element from the start index of the array,where n is the total number of nodes in the tree.This uses O(nlogn) time and O(n) space.</p>"
+394,<p>They asked me to optimize it further.</p>
+395,<p>I gave a O(nlogn) time and O(1) space solution by converting the binary tree into doubly linked list and then finding the kth largest in a doubly linked list which can be done in O(nlogn) time.</p>
+396,"<p>But there is a better solution for this which I couldn’t think of during the interview.Just construct a minheap of k elements,Insert elements into the heap by traversing the tree using any traversal.</p>"
+397,<p>If the heap root element is smaller than the current node in the tree remove the root element from heap and insert the  new element to the heap. At last after the complete traversal of the tree the kth largest element will be at the root of the heap.This uses O(nlogk) time and O(k) space.</p>
+398,<p>But they were happy with my approach as they said me to optimise it either by space or time. I gave a constant space approach so they were satisfied.</p>
+399,"<p>2.<a href=""https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1"" rel=""noopener"" target=""_blank"">Given a directed graph, find whether there exists a cycle or not.If it does exist print it.</a></p>"
+400,<p>I gave a solution using BFS. I put a node in the queue and then added all possible nodes that can be reached from the current node. While we traverse the nodes we just mark the node as visited in the hashmap in order to avoid indefinite looping between nodes. They were satisfied with my approach.</p>
+401,<p>Finally they asked how HashMap is implemented and how it works(especially how hashcode and index are computed). I designed my own hash function and explained the way get and put functions work in a hashmap. They were happy with my explanation and then they asked how would you modify your hash function in case of collision and discussed in brief about collision handling techniques.</p>
+402,<p>They asked if I had any questions for them. I just asked the same question I asked the previous round.</p>
+403,"<p>P.S: For each question we have to write the code clearly. Don’t just dive straight into the coding part, explain your approach clearly. Be confident and they don’t want the optimized solution for the question,they see how the candidate approaches the question.<br/></p>"
+404,<p>Ques1. Find top 10 selling product given the count of sales of each product.<!--more--></p>
+405,<p>Ques2. Design a valet parking lot with basic use-case of assigning ticket to customer and retrieving the car later. Three sizes available. Use best fit and nearest distance.</p>
+406,"<p>If you like GeeksforGeeks and wold like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+407,<p></p>
+408,<p>Ques1. Find top 10 selling product given the count of sales of each product.<!--more--></p>
+409,<p>Ques2. Design a valet parking lot with basic use-case of assigning ticket to customer and retrieving the car later. Three sizes available. Use best fit and nearest distance.</p>
+410,"<p>If you like GeeksforGeeks and wold like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.<br/>
+<!-- code written only in below-mentioned div will be going to append in each articles having mentioned company name and interview experiences term name. --></p>"
+411,<p></p>
